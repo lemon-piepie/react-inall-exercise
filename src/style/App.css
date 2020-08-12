@@ -1,0 +1,12 @@
+.nav{
+    height: 80px;
+    line-height: 80px;
+    background-color: rgb(7, 131, 189);
+}
+.home, .calculator, .counter{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding-right: 20px;
+}
