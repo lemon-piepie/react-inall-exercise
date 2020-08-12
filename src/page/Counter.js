@@ -11,7 +11,7 @@ class Counter extends Component {
           <div className="left">
             <label htmlFor="time" className="time">设置时间</label>
             <input type="text" className="timeText"></input>
-            <button value="Start">Start</button>
+            <input type="submit" value="Start" ></input>
           </div>
           <div className="right">
             <input type="text" className="countText" disabled="false" placeholder="Start"></input>

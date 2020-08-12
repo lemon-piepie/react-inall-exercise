@@ -23,7 +23,8 @@
     float: right;
     margin-right: 20px;
 }
-button{
+input[type=submit]{
+    border: none;
     display: block;
     margin:0 auto;
     margin-top: 50px;
