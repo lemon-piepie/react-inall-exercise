@@ -4,6 +4,8 @@ import imgURL2 from '../images/calculator.png';
 import imgURL3 from '../images/timer.png';
 import '../style/Home.css';
 import { Link } from 'react-router-dom';
+import Calculator from '../page/Calculator';
+import Counter from '../page/Counter';
 
 const Home = () => {
   return (
@@ -16,12 +18,12 @@ const Home = () => {
     <div className = "downPart">
       <div className = "left">
         <img src = {imgURL2}></img>
-        <Link to='/calculate' className="link">计算器</Link>
+        <Link exact to='/calculator' className="link1">计算器</Link>
       </div>
       <div className = "right">
         <img src = {imgURL3}></img>
-        <Link to='/counter' className="link">倒计时器</Link>
-      </div>    
+        <Link exact to='/counter' className="link2">倒计时器</Link>
+      </div>   
     </div>
   </div>);
 };

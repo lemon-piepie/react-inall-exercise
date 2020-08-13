@@ -49,11 +49,11 @@
 .downPart .right{
 	position: absolute;
 	float: right;
-	right: 10%;
+	right: 5%;
 	margin-top: 50px;
 }
 
-.link{
+.link1, .link2{
 	display: block;
 	color: white;
 	font-size: 30px;

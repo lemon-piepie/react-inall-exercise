@@ -16,6 +16,7 @@ input[type=text]{
     border:1px solid black;
     height: 40px;
     width: 70%;
+    font-size: 30px;
 }
 .back{
     font-size: 20px;
